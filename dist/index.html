@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Memória - Jeyson</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+</head>
+<body>
+
+
+    <header>
+
+      <h1 id="titulo">JOGO DA MEMÓRIA</h1>
+
+      <form action="">
+
+        <label for="difficulty">Dificuldade</label>
+        <input name="dificuldade" id="difficulty" list="listDifficulty"  value="Medium">
+
+        <datalist id="listDifficulty">
+          <option value="Easy">
+          <option value="Medium">
+          <option value="Hard">
+
+        </datalist>
+
+        <button name="submit" id="submit">START</button>
+
+
+    </form>
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+    <main>
+
+
+      <div id="firstLine" class="line">
+
+        <div class="Box" id="box1line1">
+          <img alt="" class="img" id="img1line1">
+        </div>
+
+        <div class="Box" id="box2line1">
+          <img  alt="" class="img" id="img2line1">
+        </div>
+
+        <div class="Box" id="box3line1">
+          <img alt="" class="img" id="img3line1">
+        </div>
+
+        <div class="Box" id="box4line1">
+          <img  alt="" class="img" id="img4line1">
+        </div>
+
+        </div>
+
+
+      </div>
+
+      <div id="secondline" class="line">
+
+        <div class="Box" id="box1line2">
+          <img  alt="" class="img" id="img1line2">
+        </div>
+
+        <div class="Box" id="box2line2">
+          <img  alt="" class="img" id="img2line2">
+        </div>
+
+        <div class="Box" id="box3line2">
+          <img  alt="" class="img" id="img3line2">
+        </div>
+
+        <div class="Box" id="box4line2">
+          <img  alt="" class="img" id="img4line2">
+        </div>
+      </div>
+
+
+      <div id="thirdline" class="line">
+
+        <div class="Box" id="box1line3">
+          <img  alt="" class="img" id="img1line3">
+        </div>
+
+        <div class="Box" id="box2line3">
+          <img  alt="" class="img" id="img2line3">
+        </div>
+
+        <div class="Box" id="box3line3">
+          <img  alt="" class="img" id="img3line3">
+        </div>
+
+        <div class="Box" id="box4line3">
+          <img  alt="" class="img" id="img4line3">
+        </div>
+      </div>
+
+
+      <div id="fourthline" class="line">
+
+        <div class="Box" id="box1line4">
+          <img  alt="" class="img" id="img1line4">
+        </div>
+
+        <div class="Box" id="box2line4">
+          <img  alt="" class="img" id="img2line4">
+        </div>
+
+        <div class="Box" id="box3line4">
+          <img  alt="" class="img" id="img3line4">
+        </div>
+
+        <div class="Box" id="box4line4">
+          <img  alt="" class="img" id="img4line4">
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <footer>
+
+
+
+
+    </footer>
+    
+    
+</body>
+
+<script>
+  
+  System.import("./js/index.js")
+  
+</script>
+
+
+</html>

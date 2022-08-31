@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+
+
+.line {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+}
+
+.Box {
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.Box img {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    left: 4px;
+    top: 4px;
+
+}
+
+.img {}
+
+.remove {
+    display: none;
+}
