@@ -2,6 +2,11 @@
 
 
 
+body {
+    text-align: center;
+}
+
+.line {}
 
 .line {
     display: flex;
@@ -16,6 +21,7 @@
     margin-top: 30px;
     width: 100px;
     height: 100px;
+    background-image: linear-gradient(to right, gray, #7f9297);
 }
 
 .Box img {
@@ -33,6 +39,16 @@
     display: none;
 }
 
-.block{
+.block {
     pointer-events: none;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
