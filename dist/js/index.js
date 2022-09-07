@@ -28,7 +28,7 @@ System.register(["./DomElements.js", "./SortAndEnum.js", "./validacao.js"], func
                 if (contador2 % 2 == 0 && contador2 != 0) {
                     contador3++;
                 }
-                attributeSrc.value = `imgs/${String(SortAndEnum_js_1.ImgPar[contador3])}.png`;
+                attributeSrc.value = `dist/imgs/${String(SortAndEnum_js_1.ImgPar[contador3])}.png`;
                 SortAndEnum_js_1.ElementImg[SortAndEnum_js_1.SortNumMedium[contador1]].setAttributeNode(attributeSrc);
                 SortAndEnum_js_1.ElementImg[contador1].classList.add("remove");
                 contador1++;
@@ -44,7 +44,8 @@ System.register(["./DomElements.js", "./SortAndEnum.js", "./validacao.js"], func
                     var remover = document.getElementById(`img${String(numeroBox.charAt(3))}line${String(numeroBox.charAt(8))}`);
                     remover.classList.remove("remove");
                     arrayImg.push(remover);
-                    arrayNum.push(Number(numeroImg.charAt(5)));
+                    arrayNum.push(Number(numeroImg.charAt(10)));
+                    console.log(arrayNum);
                     if (arrayNum.length == 2) {
                         var resposta = validacao_js_1.validacao(Number(arrayNum[0]), Number(arrayNum[1]));
                         if (resposta) {

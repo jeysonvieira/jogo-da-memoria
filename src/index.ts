@@ -37,7 +37,7 @@ while(contador1 <= 15){
         contador3++
 
     }
-    attributeSrc.value = `imgs/${String(ImgPar[contador3])}.png` //MESMO VALOR 2 VEZES SEGUIDOS
+    attributeSrc.value = `dist/imgs/${String(ImgPar[contador3])}.png` //MESMO VALOR 2 VEZES SEGUIDOS
             
 
     //Adiciona o atributto 
@@ -72,10 +72,16 @@ DomBox.forEach(function(valor, index){
         remover.classList.remove("remove")
 
         arrayImg.push(remover)
+        
+
+        
 
 
 
-        arrayNum.push(Number(numeroImg.charAt(5)))
+        arrayNum.push(Number(numeroImg.charAt(10)))
+
+
+        console.log(arrayNum)
 
         
         if(arrayNum.length == 2){

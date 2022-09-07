@@ -42,13 +42,3 @@ body {
 .block {
     pointer-events: none;
 }
-
-footer {
-    color: white;
-    background-color: black;
-    width: 100vw;
-    height: 50px;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-}
